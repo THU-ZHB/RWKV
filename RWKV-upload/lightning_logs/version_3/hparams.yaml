@@ -1,0 +1,13 @@
+init_weights: true
+vocab_size: 50277
+total_layers: 12
+emb_size: 768
+time_mixing_weight_std: 2.0
+time_mixing_hidden_size: 768
+channel_mixing_weight_std: 2.0
+channel_mixing_hidden_size: 3072
+embedding_init_value: 0.0001
+adam_betas:
+- 0.9
+- 0.99
+learning_rate: 0.0006
